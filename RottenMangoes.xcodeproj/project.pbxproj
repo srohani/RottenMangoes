@@ -15,6 +15,10 @@
 		29FE71BE1BF141510092E7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FE71BC1BF141510092E7D8 /* LaunchScreen.storyboard */; };
 		29FE71C91BF141510092E7D8 /* RottenMangoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE71C81BF141510092E7D8 /* RottenMangoesTests.m */; };
 		29FE71D41BF141510092E7D8 /* RottenMangoesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE71D31BF141510092E7D8 /* RottenMangoesUITests.m */; };
+		29FE71E31BF146150092E7D8 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE71E21BF146150092E7D8 /* Movie.m */; settings = {ASSET_TAGS = (); }; };
+		29FE71E61BF148AB0092E7D8 /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE71E51BF148AB0092E7D8 /* MovieCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		29FE71E91BF14C040092E7D8 /* MovieCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE71E81BF14C040092E7D8 /* MovieCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		29FE71EF1BF2A8BE0092E7D8 /* Review.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE71EE1BF2A8BE0092E7D8 /* Review.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		29FE71CF1BF141510092E7D8 /* RottenMangoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenMangoesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FE71D31BF141510092E7D8 /* RottenMangoesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenMangoesUITests.m; sourceTree = "<group>"; };
 		29FE71D51BF141510092E7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FE71E11BF146150092E7D8 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		29FE71E21BF146150092E7D8 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		29FE71E41BF148AB0092E7D8 /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
+		29FE71E51BF148AB0092E7D8 /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
+		29FE71E71BF14C040092E7D8 /* MovieCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewController.h; sourceTree = "<group>"; };
+		29FE71E81BF14C040092E7D8 /* MovieCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewController.m; sourceTree = "<group>"; };
+		29FE71ED1BF2A8BE0092E7D8 /* Review.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Review.h; sourceTree = "<group>"; };
+		29FE71EE1BF2A8BE0092E7D8 /* Review.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Review.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +115,17 @@
 			children = (
 				29FE71B11BF141510092E7D8 /* AppDelegate.h */,
 				29FE71B21BF141510092E7D8 /* AppDelegate.m */,
+				29FE71E11BF146150092E7D8 /* Movie.h */,
+				29FE71E21BF146150092E7D8 /* Movie.m */,
+				29FE71E71BF14C040092E7D8 /* MovieCollectionViewController.h */,
+				29FE71E81BF14C040092E7D8 /* MovieCollectionViewController.m */,
+				29FE71ED1BF2A8BE0092E7D8 /* Review.h */,
+				29FE71EE1BF2A8BE0092E7D8 /* Review.m */,
 				29FE71B41BF141510092E7D8 /* ViewController.h */,
 				29FE71B51BF141510092E7D8 /* ViewController.m */,
 				29FE71B71BF141510092E7D8 /* Main.storyboard */,
+				29FE71E41BF148AB0092E7D8 /* MovieCollectionViewCell.h */,
+				29FE71E51BF148AB0092E7D8 /* MovieCollectionViewCell.m */,
 				29FE71BA1BF141510092E7D8 /* Assets.xcassets */,
 				29FE71BC1BF141510092E7D8 /* LaunchScreen.storyboard */,
 				29FE71BF1BF141510092E7D8 /* Info.plist */,
@@ -274,8 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				29FE71B61BF141510092E7D8 /* ViewController.m in Sources */,
+				29FE71E61BF148AB0092E7D8 /* MovieCollectionViewCell.m in Sources */,
 				29FE71B31BF141510092E7D8 /* AppDelegate.m in Sources */,
+				29FE71E31BF146150092E7D8 /* Movie.m in Sources */,
 				29FE71B01BF141510092E7D8 /* main.m in Sources */,
+				29FE71EF1BF2A8BE0092E7D8 /* Review.m in Sources */,
+				29FE71E91BF14C040092E7D8 /* MovieCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

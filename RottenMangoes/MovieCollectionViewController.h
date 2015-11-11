@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MovieCollectionViewController.h
 //  RottenMangoes
 //
 //  Created by Samer Rohani on 2015-11-09.
@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Movie.h"
 
-@interface ViewController : UIViewController
-
-@property (nonatomic) Movie *movie;
-
+@interface MovieCollectionViewController : UICollectionViewController
 
 
 @end
-
